@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/KrustyKrab.Api/KrustyKrab.Api.csproj" />
+    <Project Path="src/KrustyKrab.Domain/KrustyKrab.Domain.csproj" />
+    <Project Path="src/KrustyKrab.Infrastructure/KrustyKrab.Infrastructure.csproj" />
+    <Project Path="src/KrustyKrab.Migrations/KrustyKrab.Migrations.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/KrustyKrab.Tests/KrustyKrab.Tests.csproj" />
+  </Folder>
+</Solution>
