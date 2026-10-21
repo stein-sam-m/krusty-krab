@@ -1,3 +1,17 @@
 @KrustyKrab.Api_HostAddress = http://localhost:5160
 
+GET {{KrustyKrab.Api_HostAddress}}/api/employees
+Accept: application/json
+
+###
+
+GET {{KrustyKrab.Api_HostAddress}}/api/employees/3
+Accept: application/json
+
+###
+
+# No such employee: 404
+GET {{KrustyKrab.Api_HostAddress}}/api/employees/999
+Accept: application/json
+
 ###
