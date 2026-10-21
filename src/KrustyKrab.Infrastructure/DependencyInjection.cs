@@ -1,5 +1,7 @@
 using KrustyKrab.Domain.Employees;
+using KrustyKrab.Domain.MenuItems;
 using KrustyKrab.Infrastructure.Employees;
+using KrustyKrab.Infrastructure.MenuItems;
 using Microsoft.Extensions.DependencyInjection;
 using MySqlConnector;
 
@@ -12,6 +14,7 @@ public static class DependencyInjection
         // MySqlDataSource pools connections; one shared instance for the app's lifetime.
         services.AddSingleton(new MySqlDataSource(connectionString));
         services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+        services.AddScoped<IMenuItemRepository, MenuItemRepository>();
         return services;
     }
 }

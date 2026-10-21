@@ -15,3 +15,8 @@ GET {{KrustyKrab.Api_HostAddress}}/api/employees/999
 Accept: application/json
 
 ###
+
+GET {{KrustyKrab.Api_HostAddress}}/api/menu-items
+Accept: application/json
+
+###
